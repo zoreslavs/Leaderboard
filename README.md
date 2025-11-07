@@ -27,7 +27,7 @@ Simple popup system with an async leaderboard:
 │ ├── PopupInitialization/
 │ └── Services/
 ├── Resources/Leaderboard.json
-
+```
 ---
 
 ## How to Run
