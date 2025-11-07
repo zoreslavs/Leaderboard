@@ -7,36 +7,26 @@
 
 ## Overview
 Simple popup system with an async leaderboard:
-- Loads data from 'Resources/Leaderboard.json'
+- Loads data from `Resources/Leaderboard.json`
 - Sorts players by score
 - Loads avatars async with caching
 - Applies color & size based on player type
-- Popup opened via 'PopupServices.Manager.OpenPopup("LeaderboardPopup")'
+- Popup opened via `PopupServices.Manager.OpenPopup("LeaderboardPopup")`
 
 ---
 
 ## Structure
-Assets/
-
+```Assets/
 ├── Scripts/
-
 │ └── SimplePopupManager/
-
 │ ├── Common/
-
 │ ├── Leaderboard/
-
 │ │ ├── Controller/
-
 │ │ ├── Model/
-
 │ │ └── View/
-
 │ ├── PopupInitialization/
-
 │ └── Services/
-
-├── Resources/Leaderboard.json
+├── Resources/Leaderboard.json```
 
 ---
 
@@ -49,6 +39,6 @@ Assets/
 
 ## Notes
 - Popup scales for all screen sizes
-- Uses 'PopupNames.Leaderboard' for key
+- Uses `PopupNames.Leaderboard` for key
 - Avatars cached in-memory
 - Clean async, no editor-only code
