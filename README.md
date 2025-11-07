@@ -17,16 +17,26 @@ Simple popup system with an async leaderboard:
 
 ## Structure
 Assets/
- ├── Scripts/
- │   └── SimplePopupManager/
- │        ├── Common/
- │        ├── Leaderboard/
- │        │    ├── Controller/
- │        │    ├── Model/
- │        │    └── View/
- │        ├── PopupInitialization/
- │        └── Services/
- ├── Resources/Leaderboard.json
+
+├── Scripts/
+
+│ └── SimplePopupManager/
+
+│ ├── Common/
+
+│ ├── Leaderboard/
+
+│ │ ├── Controller/
+
+│ │ ├── Model/
+
+│ │ └── View/
+
+│ ├── PopupInitialization/
+
+│ └── Services/
+
+├── Resources/Leaderboard.json
 
 ---
 
